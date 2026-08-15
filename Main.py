@@ -25,6 +25,7 @@ def evaluate(guess):
         return "win", "correct"
 
 def guessing_game():
+    global target
     # used logic from Randomizer_Vi branch
     target = random.randint(1, 20)
     attempts = 0

@@ -1,5 +1,4 @@
 import random
-
 target = None
 #UI part
 def print_ui():
